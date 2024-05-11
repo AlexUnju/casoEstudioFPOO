@@ -8,7 +8,7 @@ public void setup(){
   personaje = new Personaje();
   personaje.setPosicion(new PVector(100,200));
   personaje.setVelocidad(new PVector(5,5));
-  habitacion = new Habitacion(height,width,0,new PVector(0,0));
+  habitacion = new Habitacion(height,width,0,new PVector(100,0));
   joyPad=new JoyPad();
   moneda=new Moneda(new PVector(100,100));
 
